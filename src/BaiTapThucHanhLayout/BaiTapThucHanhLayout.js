@@ -4,6 +4,7 @@ import BT3SideBar from './BT3SideBar'
 import BT3Carousel from './BT3Carousel'
 import BT3ProductList from './BT3ProductList'
 import BT3Footer from './BT3Footer'
+import BT3Content from './BT3Content'
 
 export default class BaiTapThucHanhLayout extends Component {
     render() {
@@ -18,8 +19,7 @@ export default class BaiTapThucHanhLayout extends Component {
                             <BT3SideBar></BT3SideBar>
                         </div>
                         <div className="col-8">
-                            <BT3Carousel></BT3Carousel>
-                            <BT3ProductList></BT3ProductList>
+                            <BT3Content></BT3Content>
                         </div>
                     </div>
                     <BT3Footer></BT3Footer>
